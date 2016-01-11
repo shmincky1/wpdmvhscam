@@ -125,6 +125,8 @@ ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background
 	float:left;
 	margin: 0;
 	padding:0;
+	position:relative;
+	top:-10px;
 }
 .thingey2 {
 	float:left;
@@ -145,6 +147,10 @@ ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background
 	background: #ffa266;
 	position: relative;/* this gives IE6 hasLayout to properly clear */
 	clear: both; /* this clear property forces the .container to understand where the columns end and contain them */
+}
+.headerthing {
+	background-color: #ffa266;
+	corner-radius
 }
 
 /* ~~ miscellaneous float/clear classes ~~ */
@@ -210,9 +216,11 @@ ul.nav a { zoom: 1; }  /* the zoom property gives IE the hasLayout trigger it ne
     <!-- end .sidebar1 -->
   </div>
   <!-- TemplateEndEditable --><!-- TemplateBeginEditable name="content" -->
-  <div class="content"> <img class="thingey" src="../img/thingey.png" alt="" width="9" height="300%">
-    <h1>a</h1>
-  </div>
+  <span class="content"><img class="thingey" src="../img/thingey.png" alt="" width="9" height="300%">
+      <div id="headerthing">
+        <h1>a header thing</h1>
+      </div>
+  </span>
   <!-- TemplateEndEditable -->
   <div class="footer">
     <table class="contacttable" width="20%" cellpadding="5">
