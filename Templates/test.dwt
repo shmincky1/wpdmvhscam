@@ -197,7 +197,7 @@ ul.nav a { zoom: 1; }  /* the zoom property gives IE the hasLayout trigger it ne
   <a href="#"><img src="../img/logo.png" alt="Insert Logo Here" name="Insert_logo" width="100%" height="30%" id="Insert_logo" style="background: #fff3e5; display:block;"></a>
   </div>
   <div class="thingeydiv">
-    <img class="thingey2" src="../img/thingey.png" alt="" width="9" height="30%">
+    <img class="thingey2" src="../img/thingey.png" alt="" width="9" height="205">
   </div>
   <div class="header">
     <!-- end .header --><!-- TemplateBeginEditable name="banner image" --><img src="" alt="" name="bannerimage" width="100%" height="30%" class="headerimg"><!-- TemplateEndEditable --></div>
