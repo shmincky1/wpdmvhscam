@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+﻿<!DOCTYPE HTML>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -87,7 +87,7 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 .content {
 	margin: 0;
 	padding:0;
-	width: 70%;
+	width: 69%;
 	float: left;
 }
 .contacttable {
@@ -121,12 +121,43 @@ ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background
 	color: #FFF;
 	background-color: #FFF;
 }
+
+
+
+
+ul.navmini {
+	list-style: none; /* this removes the list marker */
+	/*border-top: 1px solid #666;*/ /* this creates the top border for the links - all others are placed using a bottom border on the LI */
+	margin-bottom: 15px; /* this creates the space between the navigation on the content below */
+}
+ul.navmini li {
+	border-bottom: 1px solid #666; /* this creates the button separation */
+	margin: 1em;
+
+}
+ul.navmini a, ul.navmini a:visited { /* grouping these selectors makes sure that your links retain their button look even after being visited */
+	padding: 5px 5px 5px 15px;
+	display: block; /* this gives the link block properties causing it to fill the whole LI containing it. This causes the entire area to react to a mouse click. */
+	text-decoration: none;
+	background: #ffa266;
+	color: #000;
+}
+ul.navmini a:hover, ul.navmini a:active, ul.navmini a:focus { /* this changes the background and text color for both mouse and keyboard navigators */
+	color: #FFF;
+	background-color: #FFF;
+}
+
+
+
+
+
+
 .thingey {
 	float:left;
 	margin: 0;
 	padding:0;
 	position:relative;
-	top:-10px;
+	top:-20px;
 }
 .thingey2 {
 	float:left;
