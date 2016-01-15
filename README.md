@@ -4,4 +4,5 @@ Stuff to do:
   -[do] ALL [the things]
     -make all the pages and Stuff
   -better system for orange bar?
+  -staff.html
   -
