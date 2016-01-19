@@ -153,7 +153,7 @@ ul.navmini a:hover, ul.navmini a:active, ul.navmini a:focus { /* this changes th
 	margin: 0;
 	padding:0;
 	position:relative;
-	top:-40px;
+	top:-170px;
 }
 .thingey2 {
 	float:left;
@@ -241,7 +241,7 @@ ul.nav a { zoom: 1; }  /* the zoom property gives IE the hasLayout trigger it ne
     <!-- end .sidebar1 -->
   </div>
   <!-- TemplateEndEditable --><!-- TemplateBeginEditable name="content" -->
-  <span class="content"><img class="thingey" src="../img/thingey.png" alt="" width="9" height="300%">
+  <span class="content"><img class="thingey" src="../img/thingey.png" alt="" width="9" height="300">
       <div id="headerthing">
         <h1>a header thing</h1>
       </div>

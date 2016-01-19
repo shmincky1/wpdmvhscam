@@ -5,4 +5,4 @@ Stuff to do:
     -make all the pages and Stuff
   -better system for orange bar?
   -staff.html
-  -
+  -fix links in nav
