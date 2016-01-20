@@ -4,3 +4,4 @@ Stuff to do:
     -make all the pages and Stuff
   -staff.html
   -in middle of kennel.html
+  -ADD SHADOWS
